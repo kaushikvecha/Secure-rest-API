@@ -25,7 +25,7 @@ For e.g. if user2 actor makes a get request (profile) by sending its public key 
 Now to send this information to user2, user1 actor will encrypt the information by AES-128 using the random key (generated using secure random number generator) and encrypts this random key as well with the user2 actor’s public key.  
 When user2 actor receives this encrypted information and encrypted key from user1 actor, the user2 actor first decrypts the key using its private key. Thus, using the key, user2 actor decrypts the encrypted information. 
 
-The simulation strategy is decided based on the real statistics from the references mentioned at the end of this report. 
+
 
 E.g., if the total number of Facebook users (clients) are 1000 then, 
 Initialization:
